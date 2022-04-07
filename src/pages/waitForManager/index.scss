@@ -1,0 +1,358 @@
+html, body {
+ width: auto !important;
+ height: auto !important;
+ background-color: #F6F8FA;
+}
+.waitForPage {
+  padding: 16px 5px;
+  position: relative;
+
+  .personal,
+  .fullNumber {
+    position: absolute;
+    top: 40px;
+    left: 102px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #FF5E76;
+    border-radius: 50%;
+    text-align: center;
+    z-index: 10;
+
+
+    span {
+      font-size: 16px;
+      font-family: 'PingFangSC-Medium', 'PingFang SC';
+      font-weight: 500;
+      color: #FFFFFF;
+    }
+  }
+
+  .fullNumber {
+    top: 39px;
+    left: 275px;
+  }
+
+  .tab-list {
+    position: relative;
+
+    .ant-tabs-nav {
+      background-color: #fff;
+      margin-bottom: 0;
+    }
+
+    .ant-tabs-tab + .ant-tabs-tab {
+      margin-left: 100px;
+    }
+
+    .site-custom-tab-bar {
+      margin-bottom: 0;
+      background-color: #fff;
+    }
+  }
+
+  .ant-tabs-nav-list {
+    margin-left: 15px;
+
+    .ant-tabs-tab {
+      background: none !important;
+      padding-top: 24px;
+      
+      .ant-tabs-tab-btn {
+        font-family: 'PingFangSC-Regular';
+        font-size: 14px;
+        color: #686868;
+        font-weight: 400;
+        
+      }
+    }
+
+    .ant-tabs-tab-active {
+      background: none !important;
+
+      .ant-tabs-tab-btn {
+        font-family: 'PingFangSC-Medium';
+        font-size: 16px;
+        color: #448EF7;
+        font-weight: 600;
+      }
+    }
+
+    .ant-tabs-ink-bar {
+      height: 3px !important;
+    }
+  }
+
+  .jz-form-horizontal {
+    > .ant-col {
+      margin-bottom: 10px;
+    }
+
+    .search-item {
+      display: flex;
+
+      .ant-row {
+        margin-right: 50px;
+      }
+    }
+  }
+
+  .ant-card-hoverable:hover {
+    box-shadow: none;
+  }
+
+  .ant-card-hoverable {
+    background: #FFFFFF;
+    border-radius: 10px;
+    border-color: transparent;
+  }
+  
+  .searchCard {
+    position: relative;
+
+    .ant-card-body {
+      padding: 24px 12px 21px 12px;
+    }
+
+    .customBtn {
+      width: 127px;
+      height: 32px;
+      background: #04C998;
+      border-radius: 3px;
+
+      position: absolute;
+      top: 20px;
+      right: 20px;
+
+
+      span {
+        font-size: 12px;
+        font-family: 'PingFangSC-Regular', 'PingFang SC';
+        font-weight: 400;
+        color: #FFFFFF;
+      }
+    }
+  }
+
+  .search-panel-item {
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+
+    .date-list {
+      margin-left: 52px;
+
+      span {
+        font-family: 'PingFangSC-Regular';
+        padding: 6px 17px 6px 16px;
+        background: #E5F0FF;
+        border-radius: 4px;
+        font-size: 12px;
+        color: #303030;
+        border: none;
+
+        &.ant-tag-checkable-checked {
+          color: #4F65E9;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .ant-form-item-label > label {
+      font-family: 'PingFangSC-Regular';
+      font-size: 14px;
+      color: #303030;
+      line-height: 24px;
+      font-weight: 400;
+    }
+  }
+
+  .jz-get-workorder-panel {
+    .jz-panel-item {
+      .autoRefresh {
+        margin-right: 10px;
+      }
+
+      .searchBtn {
+        height: 32px;
+        background: #448EF7;
+        border-radius: 3px;
+
+        span {
+          font-size: 14px;
+          color: #FFFFFF;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .jz-card-tips {
+    margin-top: 20px;
+  }
+
+  .tips {
+    display: flex;
+    height: 25px;
+
+    .exceed {
+      height: 25px;
+      margin-right: 10px;
+
+      > span {
+        height: 25px;
+        font-family: 'MicrosoftYaHei';
+        font-size: 12px;
+        color: #666;
+        letter-spacing: 0;
+        line-height: 25px;
+        font-weight: 400;
+        display: inline-block;
+        padding-left: 10px;
+
+        &.title {
+          color: #333333;
+          padding-left: 0;
+        }
+
+        img {
+          margin-right: 5px;
+          margin-top: -3px;
+        }
+      }
+    }
+  }
+
+  .selectT {
+    display: flex;
+    align-items: center;
+    height: 32px;
+    background: #F0F7FF;
+    border: 1px solid rgba(199,222,255,1);
+    border-radius: 3px;
+    padding-left: 15px;
+    margin-top: 33px;
+    margin-bottom: 7px;
+    
+    > span {
+      font-family: 'PingFang-SC-Regular';
+      font-size: 12px;
+      color: #303030;
+      text-align: center;
+      line-height: 15px;
+      font-weight: 400;
+      position: relative;
+
+      &:nth-of-type(2) {
+        padding-left: 10px;
+      }
+
+      &.emptyBtn {
+        padding-left: 41px;
+      }
+
+      &.seeting {
+        position: absolute;
+        right: 10px;
+      }
+    }
+  }
+
+  .table-list {
+    table {
+      thead {
+        tr {
+          th {
+            font-size: 14px;
+            color: #333333;
+            font-weight: bold;
+
+            &::before {
+              display: none;
+            }
+          }
+        }
+      }
+
+      tbody {
+        tr {
+          height: 45px;
+
+          &.ant-table-row-selected {
+            td {
+              background: rgba(68, 142, 247, 0.06);
+              border: none;
+            }
+          }
+          
+          td {
+            font-size: 14px;
+            color: #303030;
+            height: 45px;
+            padding: 0;
+
+            &:nth-of-type(2) {
+              span {
+                padding-right: 8px;
+                vertical-align: bottom;
+
+                img {
+                  margin-top: -5px;
+                }
+
+                span {
+                  vertical-align: bottom;
+                  padding-left: 2px;
+                }
+              }
+            }
+
+            &:last-child {
+              button {
+                padding: 2px 2px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .seeting-export {
+    display: inline-block;
+    margin-right: 19px;
+
+    span {
+     vertical-align: top;
+     margin-left: 8px;
+    }
+  }
+
+  .export-all {
+    background: #448EF7;
+    border-radius: 3px;
+  }
+
+  .pagingList {
+    .ant-pagination-item-active {
+      background: #448EF7;
+      border-radius: 3px;
+
+      a {
+        font-size: 12px;
+        color: rgba(255,255,255,0.90);
+      }
+    }
+
+    .ant-pagination-options-size-changer {
+      display: none;
+    }
+
+    .ant-pagination-item-link {
+      border: none;
+      width: 16px;
+      height: 16px;
+    }
+  }
+}
